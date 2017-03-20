@@ -5,6 +5,9 @@ font-size: 2.55rem;
     @mixin atSmall{
         font-size: 3.37rem;
     }
+    &--blue{
+        color: $mainBlue;
+    }
     strong {
         font-weight: 500;
     }
@@ -15,6 +18,8 @@ font-size: 2.55rem;
         margin-left: auto;
         margin-bottom: .6rem;
         @mixin atSmall{
+            position: relative;
+            top: 8px;
              margin-right: .5rem;
              margin-left: 0;
              margin-bottom: 0;
