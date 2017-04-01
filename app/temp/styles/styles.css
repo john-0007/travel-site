@@ -693,6 +693,7 @@ a{
 
   .headline {
     font-size: 2.875rem;
+    text-align: center;
   }
 }
 
@@ -1359,12 +1360,23 @@ font-size: 2.55rem;
         
     }
 
-.social-icons__icon{
+.social-icons__icon {
   background-color: #d59541;
   display: inline-block;
   margin: 0 5px 5px 5px;
-  width: 33%;
-  height: 72px;
+  padding: 10px 0;
+  width:20%;
+  height: 60px;/*
+        position: relative;
+          .icon{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        
+    }
+*/
 }
 
 @media (min-width:530px) {
@@ -1373,15 +1385,5 @@ font-size: 2.55rem;
     width: 72px;
     margin: 0 5px;
   }
-}
-
-/*        position: relative;*/
-
-.social-icons__icon .icon{
-  display: block;/*
-        position: absolute;
-        top: 50%;
-        left: 50%;
-*/
 }
 

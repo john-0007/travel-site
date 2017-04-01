@@ -18,7 +18,7 @@ import smoothScroll from "jquery-smooth-scroll";
      }
      
      refreshWaypoints(){
-         this.lazyImages.load(function(){
+         this.lazyImages.on(function(){
             Waypoint.refreshAll();                  
                               });
      }
