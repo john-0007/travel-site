@@ -12,9 +12,10 @@ import smoothScroll from "jquery-smooth-scroll";
          this.creatHeaderWayPoint();
          this.pageSections=$(".page-section");
          this.headerLink=$(".primary-nav a");
+         this.refreshWaypoints();
          this.creatPageSectionWaypoints();
          this.addSmoothScrolling();
-         this.refreshWaypoints();
+        
      }
      
      refreshWaypoints(){
