@@ -39,8 +39,12 @@
                 transform: scale(.57);
             }
         }
+        
       
     }
+    &__logo__graphic{
+            text-indent: -9999px;
+        }
     
     &__menu-icon{
         width: 20px;

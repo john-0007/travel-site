@@ -1188,6 +1188,10 @@ font-size: 2.55rem;
   }
 }
 
+.site-header__logo__graphic{
+  text-indent: -9999px;
+}
+
 .site-header__menu-icon{
   width: 20px;
   height: 17.5px;
@@ -1453,18 +1457,9 @@ font-size: 2.55rem;
   display: inline-block;
   margin: 0 5px 5px 5px;
   padding: 10px 0;
-  width:20%;
-  height: 60px;/*
-        position: relative;
-          .icon{
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-
-        
-    }
-*/
+  width:33%;
+  height: 72px;
+  position: relative;
 }
 
 @media (min-width:530px) {
@@ -1473,5 +1468,14 @@ font-size: 2.55rem;
     width: 72px;
     margin: 0 5px;
   }
+}
+
+.social-icons__icon .icon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
 }
 
