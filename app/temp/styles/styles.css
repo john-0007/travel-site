@@ -1016,6 +1016,10 @@ font-size: 2.55rem;
     background-image: url('/assets/images/sprite/sprite-0f9283b3.svg');
 }
 
+.no-svg .icon{
+    background-image: url('/assets/images/sprite/sprite-0f9283b3.png');
+}
+
 .icon--clear-view-escapes{
     width: 142.4px;
     height: 59.53px;
@@ -1393,7 +1397,7 @@ font-size: 2.55rem;
 
 .modal{
     position: fixed;
-    z-index: 999;
+    z-index: 998;
     background-color: rgba(255,255,255,.94);
     top: 0;
     bottom: 0;
