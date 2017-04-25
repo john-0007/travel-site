@@ -1,10 +1,10 @@
 {{#shapes}}
 {{#first}}
 .icon{
-    background-image: url('/assets/images/sprite/{{{sprite}}}');
+    background-image: url('../../assets/images/sprite/{{{sprite}}}');
 }
 .no-svg .icon{
-    background-image: url('/assets/images/sprite/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
+    background-image: url('../../assets/images/sprite/{{#replaceSvgWithPng}}{{{sprite}}}{{/replaceSvgWithPng}}');
 }
 {{/first}}
 .icon--{{base}}{
