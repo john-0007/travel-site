@@ -1421,7 +1421,9 @@ font-size: 2.55rem;
 .modal__inner{
   position: absolute;
   width: 100%;
-  left: 150%;
+  top:50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .modal__description{

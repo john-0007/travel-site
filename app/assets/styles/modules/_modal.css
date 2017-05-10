@@ -19,10 +19,10 @@
     &__inner{
         position: absolute;
         width: 100%;
-        left: 150%;
+        top:50%;
+        transform: translateY(-50%);
       
     }
-    
     &__description{
         text-align: center;
         font-size: 1.3rem;

@@ -6,7 +6,7 @@ var gulp=require("gulp"),
  cssnano =require("gulp-cssnano"),
  uglify= require("gulp-uglify"),
  browserSync=require("browser-sync").create();
-;
+
 
 gulp.task("previewDist",function(){
    browserSync.init({
@@ -34,7 +34,7 @@ gulp.task("copyGeneralFiles",["deleteDistFolder"],function(){
     "!./app/temp",
     "!./app/temp/**"
     
-]
+];
     return gulp.src(pathsToCopy)
     .pipe(gulp.dest("./docs"));
 });

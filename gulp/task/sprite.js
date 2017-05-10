@@ -16,7 +16,7 @@ var config={
                 replaceSvgWithPng:function(){
                     return function(sprite,render){
                         return render(sprite).split(".svg").join(".png");
-                    }
+                    };
                 }
                 
             },
@@ -28,7 +28,7 @@ var config={
             }
         }
     }
-}
+};
 
 gulp.task("beginclean",function(){
     return del(["./app/temp/sprite","./app/assets/images/sprite"]);
